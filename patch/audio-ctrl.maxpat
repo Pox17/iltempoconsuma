@@ -39,6 +39,56 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "INPUT DELAY DIM",
+					"id" : "obj-3",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 326.25, 28.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 589.25, 454.0, 172.0, 20.0 ],
+					"text" : "mono    coppia LR ctrl fader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "STEREO FADER CTRL",
+					"id" : "obj-33",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 649.0, 476.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "MONO FADER CTRL",
+					"id" : "obj-32",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 601.0, 476.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -74,7 +124,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "DELAY DIM",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -87,20 +137,20 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "AUDIO ON/OFF",
 					"id" : "obj-5",
 					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.666678786277771, 104.000003099441528, 30.0, 30.0 ]
+					"patching_rect" : [ 367.66668701171875, 86.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "STEREO INPUT R",
 					"id" : "obj-69",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -113,20 +163,20 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "STEREO INPUT L",
 					"id" : "obj-68",
 					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 28.0, 30.0, 30.0 ]
+					"patching_rect" : [ 211.5, 32.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "MONO INPUT",
 					"id" : "obj-67",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -416,7 +466,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, 551.0, 22.0, 140.0 ],
+					"patching_rect" : [ 192.5, 551.0, 22.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 351.5, 10.0, 22.0, 140.0 ]
 				}
@@ -683,7 +733,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 249.0, 77.0, 80.0, 13.0 ]
+					"patching_rect" : [ 14.0, 86.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -902,6 +952,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -911,6 +968,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -1147,6 +1218,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
 					"order" : 0,
 					"source" : [ "obj-67", 0 ]
 				}
@@ -1155,21 +1234,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"order" : 1,
-					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-69", 0 ]
 				}
 
