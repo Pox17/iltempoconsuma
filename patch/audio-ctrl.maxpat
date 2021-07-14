@@ -417,7 +417,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
 					"patching_rect" : [ 379.75, 454.0, 78.0, 22.0 ],
-					"text" : "tapin~ 30000"
+					"text" : "tapin~ 24000"
 				}
 
 			}
@@ -722,7 +722,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
 					"patching_rect" : [ 274.25, 454.0, 78.0, 22.0 ],
-					"text" : "tapin~ 30000"
+					"text" : "tapin~ 24000"
 				}
 
 			}
