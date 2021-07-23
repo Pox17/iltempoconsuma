@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 640.0, 480.0 ],
+		"rect" : [ 34.0, 77.0, 1298.0, 657.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,28 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1251.0, 769.0, 42.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 833.20111083984375, 503.720001220703125, 104.0, 20.0 ],
+					"presentation_linecount" : 3,
+					"text" : "Composite Image"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-66",
 					"maxclass" : "comment",
@@ -476,7 +498,7 @@
 					"numoutlets" : 2,
 					"onscreen" : 0,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 721.20111083984375, 226.605697631835938, 320.0, 240.0 ]
+					"patching_rect" : [ 725.20111083984375, 261.3154296875, 320.0, 240.0 ]
 				}
 
 			}
@@ -560,7 +582,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 422.047996000000012, 55.0, 74.0 ],
+					"patching_rect" : [ 249.0, 427.3154296875, 55.0, 74.0 ],
 					"text" : "Click mouse on key color in Image A"
 				}
 
@@ -647,7 +669,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 202.5, 738.0, 697.0, 738.0, 697.0, 216.0, 730.70111083984375, 216.0 ],
+					"midpoints" : [ 202.5, 738.0, 698.0, 738.0, 698.0, 249.0, 734.70111083984375, 249.0 ],
 					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -916,8 +938,8 @@
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
