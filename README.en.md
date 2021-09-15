@@ -1,1 +1,2 @@
-
+# **Il tempo consuma**
+Bachelor Thesis project in collaboration Padua's university research center _Centro di Sonologia Computazionale_ (CSC) to transfer the multimedia peformance _Il tempo consuma_ by Michele Sambin in the digital domain.
