@@ -1,7 +1,6 @@
 
-# UN MODELLO PER IL TRASFERIMENTO DELLE PERFORMANCE MULTIMEDIALI NEL DOMINIO DIGITALE.
-
-# UNO STUDIO DI CASO: ”IL TEMPO CONSUMA” DI MICHELE SAMBIN
+# Un modello per il trasferimento delle Performance Multimediali nel Dominio Digitale.
+# Uno Studio di Caso: "Il Tempo Consuma" di Michele Sambin.
 *Read this in other languages: [English](README.en.md).*
 
 
