@@ -4,7 +4,7 @@
 
 Progetto di Tesi di laurea Triennale per il recupero della performance multimediale _Il tempo consuma_ di Michele Sambin in collaborazione con il _Centro di Sonologia Computazionale_ (CSC) dell'Università di Padova.
 
-#Sommario 
+## Sommario 
 
 In questo lavoro si presentano i passi e gli strumenti utilizzati per il trasferimento
 nel dominio digitale della performance multimediale dal vivo Il Tempo Consuma
