@@ -1,4 +1,4 @@
-# **Il tempo consuma**
+# **Il tempo Consuma**
 *Read this in other languages: [English](README.en.md).*
 
 
